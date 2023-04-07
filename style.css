@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Verdana';
+}
+
+/*NAVBAR -- PARTE QUE TEM A IMAGEM CCXP */
+.navbar{
+    background-color: rgba(255, 217, 0, 1);
+    height: 100px;
+    display: flex;
+    width: 100%;
+}
+
+#img{
+    margin-top: 20px;
+    margin-left: 4rem;
+    align-items: center;
+}
+
+/*PARTE COM TEXTO INTERATIVO, FALANDO SOBRE O EVENTO*/
+section{
+    display: inline-flex;
+    text-align: center;
+    
+}
+
+.titles{
+    text-transform: uppercase;
+
+}
+
+h1{
+    font-family: 'Verdana';
+    font-size: 40px;
+    line-height: 70px;
+    color:  rgba(255, 217, 0, 1);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#subtitle{
+    font-family: 'Verdana';
+    color: rgba(255, 255, 255, 1);
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#txt{
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 400px;
+    color: #FFFFFF;
+}
+
+.container1{
+    background-color: rgba(81, 73, 136, 1);
+    width: 540px;
+    display: flex;
+    padding: 2rem;
+    height: 340px;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4px;
+    
+}
+
+
+/*TEMPORIZADOR Q CONTA QUANTO TEMPO FALTA PARA A CCXP*/
+
+.direita{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 600px;
+}
+
+.timer{
+    display: flex;
+    flex-direction: row;
+    font-size: 50px;
+    justify-content: space-between;
+    width: 500px;
+    color: rgba(81, 73, 136, 1);
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 85px;
+}
+
+#bigTimes{
+    font-family: 'Verdana';
+    color: #E33881;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+video{
+    width: 540px;
+    align-self: center;
+}
+
+/*PARTE DOS INGRESSOS*/
+
+.cards{
+    display: flex;
+    text-align: center;
+    width: 540px;
+}
+
+h4{
+    text-transform: uppercase;
+    color: rgba(255, 217, 0, 1);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 33px;
+    margin-left: 59px;
+}
+/*SETANDO O TAMANHO DOS INGRESSOS*/
+#qui{
+    width: 179px;
+}
+#sex{
+    width: 179px;
+}
+#sab{
+    width: 179px;
+}
+#dom{
+    width: 179px;
+}
+
+#ingressos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.garanta{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+#button{
+    display: flex;
+    width: 342px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 49px;
+    height: 88px;
+    border-radius: 15px;
+    border: 0px solid;
+    background-color: rgba(81, 73, 136, 1);
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 25px;
+}
